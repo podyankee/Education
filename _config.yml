@@ -1,0 +1,24 @@
+bg-img: hero-bg.jpg
+logo: logo.svg
+
+avatar: travitar.jpg
+blurb: <p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit. Obcaecati accusamus veritatis ipsam architecto iure eum. Repellat deserunt nulla, ducimus laborum facilis quas aut ex, earum qui dolores vero sequi, ab!</p>
+
+
+
+title: Artists Theme
+description: Thinker // Designer // YouTuber
+
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+
+port: 4000
+
+include: ['_includes/work']
+exclude: ['the_design.psd']
+
+sass:
+  sass_dir: assets/css
+  style: :nested

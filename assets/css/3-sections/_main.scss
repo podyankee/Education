@@ -1,0 +1,52 @@
+$text-color: #333;
+$dark-color: #000;
+$red-color: #981818;
+$blue-color: #003469;
+$blue-color: #67bc5c;
+
+body {
+  font-family: "RobotoRegular", sans-serif;
+  color: $text-color;
+  font-weight: normal;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+
+ h1 {
+	color: #fff;
+	font-size: 60px;
+	line-height: 56;
+	font-weight: bold;
+	font-family: "CleanvertisingLight", sans-serif;
+ }
+
+ section {
+	padding: 58px 0 68px;
+
+	h2 {
+		color: $blue-color;
+		font-size: 50px;
+		line-height: 56px;
+		margin-bottom: 50px;
+
+	}
+	&.s_dark{
+		h2,h3,p {
+			color: #fff;
+		}
+	}
+ }
