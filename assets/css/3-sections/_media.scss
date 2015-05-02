@@ -13,7 +13,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+	.profy-item:last-child {
+		margin-bottom: 35px;
+	}
+		
 }
 
 /* Small Devices, Tablets
@@ -32,6 +35,15 @@
 	
 	
 	
+}
+
+
+@media only screen and (max-width : 600px) {
+	.profy_item {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 25px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -54,6 +66,11 @@
 	}
 	.button_wrap {
 		text-align: center;
+	}
+	
+	section h2 {
+		font-size: 38px;
+		line-height: 42px;
 	}
 	
 }
