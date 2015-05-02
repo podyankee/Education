@@ -2,7 +2,7 @@ $text-color: #333;
 $dark-color: #000;
 $red-color: #981818;
 $blue-color: #003469;
-$blue-color: #67bc5c;
+$green-color: #67bc5c;
 
 body {
   font-family: "RobotoRegular", sans-serif;
@@ -29,9 +29,10 @@ body textarea:required:valid {
  h1 {
 	color: #fff;
 	font-size: 60px;
-	line-height: 56;
+	line-height: 56px;
 	font-weight: bold;
 	font-family: "CleanvertisingLight", sans-serif;
+	 margin: 0;
  }
 
  section {
@@ -50,3 +51,35 @@ body textarea:required:valid {
 		}
 	}
  }
+.top_header h2 {
+	margin: 10px 0 0;
+	font-family: "CleanvertisingLight", sans-serif;
+	font-size: 36px; 
+}
+
+.button{
+	background: none;
+	cursor: pointer;
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 32px;
+	background-color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "RobotoBold", sans-serif;
+	&.btn_red{
+		background-color: $red-color;}
+	&.btn_green{
+		background-color: $green-color;}
+	&.btn_white{
+		background-color: #fff;}
+}
+a.button {
+	color: #fff;
+	text-decoration: none;
+}

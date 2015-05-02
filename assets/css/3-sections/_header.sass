@@ -4,8 +4,88 @@ header
 	@extend %bg-img
 	color: #fff
 	padding-top: 32px
+	padding-bottom: 40px
 
 .logo
 	font-size: 32px
 	font-family: RobotoBold,sans-serif
+	font-weight: bold
+
+.top_phone
+	text-align: right
+
+	.tab
+		cursor: pointer
+
+.top_phone .wrapper .tab
+	text-transform: uppercase
+
+.top_phone .wrapper .active 
+	text-decoration: underline
+
+.top_phone .tab_item
+	display: none
+	font-size: 34px
+	font-family: RobotoBold,sans-serif
+
+.top_phone .tab_item:first-child, .tabs_header .tab_item:first-child
+	display: block
+
+.top_header
+	margin-top: 80px
+
+
+
+.tabs_header
+	margin-top: 30px
+	.tab
+		cursor: pointer
+
+.tabs_header .tab_item
+	display: none
+	font-size: 16px
+	font-family: RobotoBold,sans-serif
+
+.tabs_header
+	.tab
+		display: inline-block
+		background-color: rgba(255, 255, 255, .25) 
+		padding: 15px 18px				
+		text-transform: uppercase
+		float: left
+		font-family: RobotoBold,sans-serif
+		&.active 
+			background-color: rgba(255, 255, 255, .6)
+			color: #000
+		+transition(all  .25s ease)
+				
 	
+.tabs_header
+	font-size: 18px
+	
+	.tab_content
+		background-color: rgba(255, 255, 255, .6)
+		color: #000
+		text-transform: uppercase
+		padding: 12px 18px 20px !important
+		ul,li
+			margin: 0
+			list-style-type: none
+		li
+			padding-left: 40px
+			position: relative
+			margin-bottom: 12px
+			font-family: RobotoBold,sans-serif
+		&:last-child
+			padding: 0
+		
+		i
+			position: absolute
+			line-height: 26px
+			padding-right: 5px
+			left: 0
+			top: 0
+			color: #6f6a67
+
+.button_wrap
+	text-align: right
