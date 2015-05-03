@@ -39,7 +39,7 @@ body textarea:required:valid {
 
  section {
 	padding: 58px 0 68px;
-
+		
 	h2 {
 		color: $blue-color;
 		font-size: 50px;
@@ -94,4 +94,13 @@ a.button {
 p strong {
 	font-family: "RobotoBold", sans-serif;
 	font-weight: normal;
+}
+
+section.s_dark {
+	h2, h3, p {
+		color: #fff;
+	}
+}
+.footer {
+	height: 400px;
 }

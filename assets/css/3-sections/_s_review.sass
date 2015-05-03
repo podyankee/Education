@@ -1,0 +1,63 @@
+.s_review
+	background-image: url(../images/middle_bg.jpg)
+	background-repeat: repeat-x
+	background-attachment: fixed
+	min-height: 500px
+	background-size: cover
+	
+.review_item
+	color: #fff
+	text-align: center
+
+	h4
+		font-family: "Times New Roman", Times, Baskerville, Georgia, serif
+		font-style: italic
+		font-size: 22px
+		font-weight: normal
+		margin-top: 20px
+		margin-bottom: 20px
+
+	p
+		margin: 30 auto 0
+		display: inline-block
+		float: none
+		font-size: 15px
+	
+	.image_wrap
+		text-align: center
+
+		img
+			+size(165px)
+			display: inline-block
+			border-radius: 50%
+			border: 10px solid #585a5b
+
+.hr
+	width: 80px
+	height: 1px
+	background-color: #cea380
+	margin: auto
+
+.owl-nav
+	.owl-prev
+		width: 200px
+		height: 252px
+		background-image: url(../images/s_arrows.png)
+		top: 30px
+		left: -150px
+		position: absolute
+		opacity: .6
+		&:hover
+			opacity: 1
+.owl-nav
+	.owl-next
+		width: 200px
+		height: 252px
+		background-image: url(../images/s_arrows.png)
+		top: 30px
+		right: -150px
+		position: absolute
+		background-position: top right
+		opacity: .5
+		&:hover
+			opacity: 1
