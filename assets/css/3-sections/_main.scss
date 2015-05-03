@@ -16,7 +16,9 @@ body {
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-  color: red; }
+  	color: red;
+	box-shadow: $red-color 0 0 0 2px;
+	border-color: $red-color;}
 
 body input:required:valid,
 body textarea:required:valid {

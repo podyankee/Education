@@ -14,3 +14,58 @@
 		
 		p
 			margin-top: 5px
+
+form
+	background-color: #f7f7f7
+	padding: 25px 30px
+	border: 5px solid  $green-color
+	border-radius: 5px
+
+	h2
+		text-transform: uppercase
+		margin-top: 0
+		font-family: "RootoBold", sans-serif
+		font-size: 22px
+		color: $text-color
+		line-height: 22px
+		margin-bottom: 30px
+
+	label
+		display: block
+		margin-bottom: 15px
+		font-size: 14px
+		color: #666
+	input, select 
+		display: block
+		line-height: 40px
+		height: 40px
+		border: #d9d9d9 1px solid
+		box-shadow: 0 0 20px rgba(0,0,0,.06) inset 
+		width: 100%
+		text-indent: 10px
+		font-size: 20px
+		margin-top: 3px
+
+		&:focus
+			box-shadow: $green-color 0 0 0 2px
+			border-radius: 3px
+			border-color: $green-color
+	select
+		background-image: url(../images/arrow.png)
+		background-position: right center
+		background-repeat: no-repeat
+		overflow: hidden
+		padding-right: 10px
+		z-index: 90
+		
+
+	.button_wrap
+		text-align: center
+		margin: 30px 0 10px
+		
+		button
+			border: none
+			border-radius: 3px
+		
+		
+	
