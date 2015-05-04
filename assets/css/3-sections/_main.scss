@@ -84,7 +84,9 @@ body textarea:required:valid {
 	&.btn_green{
 		background-color: $green-color;}
 	&.btn_white{
-		background-color: #fff;}
+		background-color: #fff;
+		color: #000;	
+	}
 }
 a.button {
 	color: #fff;
