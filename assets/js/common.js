@@ -34,3 +34,9 @@ $(".tabs_header .wrapper .tab").click(function() {
 }).eq(0).addClass("active");
  
 
+	$(".s_contacts .tab_item").not(":first").hide();
+	$(".s_contacts .contacts_top .tab").click(function() {
+	$(".s_contacts .contacts_top .tab").removeClass("active").eq($(this).index()).addClass("active");
+	$(".s_contacts .tab_item").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+ 
