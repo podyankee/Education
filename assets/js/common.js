@@ -1,12 +1,13 @@
 $(document).ready(function(){
 	
+	$('.popup').magnificPopup({type:'image'});
+	
 	$.stellar({
 		responsive: true,
 		horizontalOffset:60
 	});
 	
 	$(".carousel").owlCarousel({
-		loop: true ,
 		responsive: {
 			0: {
 				items: 1,
