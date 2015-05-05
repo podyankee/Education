@@ -11,24 +11,36 @@ header
 	font-family: RobotoBold,sans-serif
 	font-weight: bold
 
-.top_phone
+.top_phone,
+.bottom_phone
 	text-align: right
 
 	.tab
 		cursor: pointer
 
-.top_phone .wrapper .tab
-	text-transform: uppercase
+.top_phone,
+.bottom_phone
+	.wrapper .tab
+		text-transform: uppercase
 
-.top_phone .wrapper .active 
-	text-decoration: underline
+.top_phone,
+.bottom_phone
+	.wrapper .active 
+		text-decoration: underline
 
-.top_phone .tab_item
-	display: none
-	font-size: 34px
-	font-family: RobotoBold,sans-serif
+.top_phone,
+.bottom_phone
+	.tab_item
+		display: none
+		font-size: 34px
+		font-family: RobotoBold,sans-serif
 
-.top_phone .tab_item:first-child, .tabs_header .tab_item:first-child
+.top_phone,
+.bottom_phone
+	.tab_item:first-child
+		display: block
+	
+.tabs_header .tab_item:first-child
 	display: block
 
 .top_header

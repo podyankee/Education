@@ -12,7 +12,9 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.6;
-  -webkit-font-smoothing: antialised; }
+  -webkit-font-smoothing: antialised;
+	overflow-x: hidden;
+}
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -37,7 +39,7 @@ body textarea:required:valid {
 	 margin: 0;
  }
 
- section {
+ section,footer {
 	padding: 58px 0 68px;
 		
 	h2 {
@@ -105,4 +107,14 @@ section.s_dark {
 }
 .footer {
 	height: 400px;
+}
+
+#hidden_form{
+	max-width: 420px;
+	margin: auto;
+	position: relative;
+	h2 {
+		font-weight: normal;
+		text-align: center;
+	}
 }

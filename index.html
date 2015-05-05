@@ -31,11 +31,37 @@
 
 {% include s_contacts.html %}
 
+{% include footer.html %}
 
 
 
 
-<div class="hidden"></div>
+
+<div class="hidden">
+	<form  id="hidden_form">
+		<h2>Связаться  с нами</h2>
+							<label >
+							<span>Ваше имя</span>
+							<input type="text" name="name" required /> 
+							</label>
+							<label >
+							<span>Ваш телефон</span>
+							<input type="text" name="phone" required /> 
+							</label>
+							<label >
+								<span>Ваш город</span>
+								<div class="custom-select">
+									<select name="city">
+										<option>Москва</option>
+										<option>Караганда</option>
+									</select>
+								</div>
+							</label>
+							<div class="button_wrap">
+								<button class="button btn_green">Отправить заявку</button>
+							</div>
+	</form>
+</div>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
